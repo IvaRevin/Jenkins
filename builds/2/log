@@ -1,0 +1,19 @@
+Started by user [8mha:////4J6GEb2/60ixZxgm/Co3jZ1vEGn0E8CbGUKq7Cn2BZTRAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9otSyzDwAtKSb9sAAAAA=[0mRevin Ivan
+Running as SYSTEM
+Building in workspace C:\Users\revin\.jenkins\workspace\JenkinsJob-1
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/IvaRevin/Homework.git # timeout=10
+Fetching upstream changes from https://github.com/IvaRevin/Homework.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.17.1.windows.2'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress -- https://github.com/IvaRevin/Homework.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 1732bf8be16f4ba9a2489e2c7a287258f7781be1 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 1732bf8be16f4ba9a2489e2c7a287258f7781be1 # timeout=10
+Commit message: "Update README.md"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk b64806a1e920233dd394976030b09767eb1dd0dd # timeout=10
+Finished: SUCCESS
